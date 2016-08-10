@@ -3,7 +3,7 @@ cmake_policy(SET CMP0012 NEW)
 PROJECT(phototool)
 
 #opencv 
-FIND_PACKAGE( OpenCV 3.0.0 REQUIRED )
+FIND_PACKAGE( OpenCV REQUIRED )
 MESSAGE("OpenCV version : ${OpenCV_VERSION}")
 
 include_directories(${OpenCV_INCLUDE_DIRS})
